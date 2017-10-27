@@ -11,6 +11,7 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf ysc.websocket.view.Step01
 		 */
+		/** test */
 			onInit: function() {
 			   this._oChart = this.byId("idVizFrame");
 			   var oLocalData = {"Year":""};
